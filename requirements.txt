@@ -1,9 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch
+torchvision
+torchaudio
+scikit-learn
 fastapi
 uvicorn
 joblib
 numpy
-scikit-learn
 sqlalchemy
 python-decouple
-#mysqlclient
 psycopg2-binary
+#sqlalchemy-utils
