@@ -1,0 +1,14 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: game-addiction-level-api:1.0.0
+    ports:
+      - "8000:8000"
+    volumes:
+      - uploaded-images:/app/images
+    restart: unless-stopped
+
+volumes:
+  uploaded-images:
